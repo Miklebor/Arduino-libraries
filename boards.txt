@@ -1,6 +1,4 @@
-# See: http://code.google.com/p/arduino/wiki/Platforms
-
-menu.cpu=Processor
+﻿menu.cpu=Processor
 
 ##############################################################
 
@@ -100,11 +98,12 @@ diecimila.menu.cpu.atmega328=ATmega328
 
 diecimila.menu.cpu.atmega328.upload.maximum_size=30720
 diecimila.menu.cpu.atmega328.upload.maximum_data_size=2048
-diecimila.menu.cpu.atmega328.upload.speed=57600
+diecimila.menu.cpu.atmega328.upload.speed=115200 ##57600
 
 diecimila.menu.cpu.atmega328.bootloader.high_fuses=0xDA
 diecimila.menu.cpu.atmega328.bootloader.extended_fuses=0x05
-diecimila.menu.cpu.atmega328.bootloader.file=atmega/ATmegaBOOT_168_atmega328.hex
+diecimila.menu.cpu.atmega328.bootloader.file=optiboot/optiboot_atmega328.hex 
+##atmega/ATmegaBOOT_168_atmega328.hex
 
 diecimila.menu.cpu.atmega328.build.mcu=atmega328p
 
